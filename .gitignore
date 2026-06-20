@@ -1,0 +1,17 @@
+# -----------------------------------------------------------------------------
+# Exported data files
+# The script writes measure definitions to .Output(); if you save that result
+# to disk it usually lands as one of these. Keep model contents out of the repo.
+# -----------------------------------------------------------------------------
+*.tsv
+*.csv
+*.txt
+
+# -----------------------------------------------------------------------------
+# OS / editor noise
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vs/
+*.suo
+*.user
