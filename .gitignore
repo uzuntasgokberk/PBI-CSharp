@@ -1,14 +1,7 @@
 # -----------------------------------------------------------------------------
-# Exported data files
-# The script writes measure definitions to .Output(); if you save that result
-# to disk it usually lands as one of these. Keep model contents out of the repo.
-# -----------------------------------------------------------------------------
-*.tsv
-*.csv
-*.txt
-
-# -----------------------------------------------------------------------------
-# OS / editor / tooling noise
+# Repo-wide OS / editor / tooling noise
+# Project-specific ignores live in each subproject's own .gitignore
+# (e.g. GetMetrics/.gitignore for exported *.tsv/*.csv data).
 # -----------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
